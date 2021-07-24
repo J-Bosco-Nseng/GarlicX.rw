@@ -13,14 +13,14 @@ section{
  .bground{
         background-image: url(Wallpaper.jpg);
         background-attachment: fixed;
-        background-repeat: no-repeat;
+        background-repeat: ;
         background-size: 100%;
         opacity: 85%;
     }
 .banner{
     position: relative;
     min-height: 100vh;
-    background: url('.jpg');
+    background: url('Wallpaper.jpg');
     background-size: cover;
     background-position: right;
     display: flex;
@@ -35,7 +35,7 @@ section{
     line-height: 1.5em;
 }
 .banner h2 span{
-    font-size: 1.5em;
+    font-size: 3em;
     font-weight: 700;
 }
 .banner h3{
