@@ -13,14 +13,14 @@ section{
  .bground{
         background-image: url(Wallpaper.jpg);
         background-attachment: fixed;
-        background-repeat: ;
+        background-repeat: no-repeat;
         background-size: 100%;
         opacity: 85%;
     }
 .banner{
     position: relative;
     min-height: 100vh;
-    background: url('Wallpaper.jpg');
+    background: url('.jpg');
     background-size: cover;
     background-position: right;
     display: flex;
