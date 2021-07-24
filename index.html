@@ -24,17 +24,6 @@
         <a href="#contact" class="btn">Contact Us</a>
     </div>
   </section>
-  <script type="text/javascript">
-   window.addEventListener('scroll', function(){
-       var header = document.querySelector('header');
-       header.classList.toggle('sticky', window.scrollY > 0);
-   })
-   function toggleMenu(){
-   var menuToggle = document.querySelector('.toggle');
-   var menu = document.querySelector('.menu');
-   menuToggle.classList.toggle('active');
-   menu.classList.toggle('active');
-   }
 </script>
   <section class="about" id="about">
       <div class="heading">
@@ -75,23 +64,6 @@ We are grateful for their trust in us and look forward to continuing to serve th
 <a href="https://play.google.com/store/apps/details?id=com.splendapps.splendo" target="_blank">
 <img style="padding-top:25px;" src="google.png" width="160" height="65" alt="" title="Downlead it on Google Play" /></a>
 </div>
-
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 6000); // Change image every 2 seconds
-}
-</script>
    </section>
      <section class="contacts" id="contact">
     <div class="heading white">
@@ -156,8 +128,34 @@ function carousel() {
    <div class="copyright">
        <p>Powered by AgriHuza 2021 &copy; </p>
    </div>
-    <!--[if IE]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+	      <script type="text/javascript">
+   window.addEventListener('scroll', function(){
+       var header = document.querySelector('header');
+       header.classList.toggle('sticky', window.scrollY > 0);
+   })
+   function toggleMenu(){
+   var menuToggle = document.querySelector('.toggle');
+   var menu = document.querySelector('.menu');
+   menuToggle.classList.toggle('active');
+   menu.classList.toggle('active');
+   }
+</script>
+    
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 6000); // Change image every 2 seconds
+}
+</script>
   </body>
 </html>
