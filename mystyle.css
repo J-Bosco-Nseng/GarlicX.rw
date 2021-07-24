@@ -13,7 +13,7 @@ section{
  .bground{
         background-image: url(Wallpaper.jpg);
         background-attachment: fixed;
-        background-repeat: ; 
+        background-repeat: ;
         background-size: 100%;
         opacity: 85%;
     }
@@ -35,7 +35,7 @@ section{
     line-height: 1.5em;
 }
 .banner h2 span{
-    font-size: 1.5em;
+    font-size: 3em;
     font-weight: 700;
 }
 .banner h3{
@@ -67,20 +67,19 @@ header{
     justify-content: space-between;
     align-items: center;
     transition: 0.5s;
+    color: #9c1f3c;
 }
 header.sticky{
-    background: #fff;
+    background: #4a0011;
     padding: 20px 100px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    color: #4a0011;
 }
 header .logo{
-color: #c9c3c3;
-font-size: 24px;
-text-transform: uppercase;
-text-decoration: none;
-font-weight: 700;
-letter-spacing: 0px;
-opacity: 70%;
+align-items: right;
+padding: 0;
+margin-right:0;
+opacity: 90%;
 }
 header.sticky .logo{
     color: #011;
@@ -102,7 +101,7 @@ header ul li a{
     text-decoration: none;
 }
 header.sticky ul li a{
-    color: #111;
+    color: #fff;
 }
 .heading h2{
     font-weight: 600;
@@ -300,7 +299,7 @@ img{
     .toggle{
         width: 40px;
         height: 40px;
-        background: url('menu.PNG');
+        background: url('1.JPG');
         background-position: center;
         background-repeat: no-repeat;
         background-size: 35px;
@@ -311,7 +310,7 @@ img{
     .toggle.active{
         color:white;
         background:black;
-        background: url('close.PNG');
+        background: url('1.JPG');
         background-position: center;
         background-repeat: no-repeat;
         background-size: 25px;
@@ -327,7 +326,7 @@ img{
         padding: 150px 50px 100px;
     }
     .banner h2{
-        font-size: 1.5em;
+        font-size: 2em;
     }
     .banner h3{
         font-size: 1em;
